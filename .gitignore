@@ -97,3 +97,9 @@ lcov.info
 # Другое
 *.lock
 pubspec.lock
+
+# Внутренние документы и правила для разработки (не публикуются)
+docs/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
