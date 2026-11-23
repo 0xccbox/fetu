@@ -1,0 +1,6 @@
+# Конфигурация flutter gen-l10n (AGENTS.md, правило 14: RU/EN с первого дня).
+arb-dir: lib/l10n
+template-arb-file: app_ru.arb
+output-localization-file: app_localizations.dart
+output-class-name: AppLocalizations
+synthetic-package: false

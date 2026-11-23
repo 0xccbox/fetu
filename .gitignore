@@ -1,0 +1,99 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.g.dart
+*.freezed.dart
+
+# Android
+android/.gradle/
+android/.idea/
+android/captures/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Web
+web/flutter_service_worker.js
+web/flutter.js
+web/index.html
+web/manifest.json
+
+# Windows
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.*
+
+# Linux
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.*
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# sing-box бинарники
+android/app/libs/libbox.aar
+ios/Frameworks/Libbox.xcframework/
+
+# Логи
+logs/
+*.log
+
+# Системные промпты и конфигурация ИИ
+.agents/
+*.agents.md
+system-prompt.md
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+
+# Secrets
+.env
+secrets.json
+keystore.properties
+google-services.json
+GoogleService-Info.plist
+
+# Coverage
+coverage/
+lcov.info
+
+# Другое
+*.lock
+pubspec.lock
